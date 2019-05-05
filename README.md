@@ -12,9 +12,9 @@ composer require itjackjw/yii2-apidoc dev-master
 # 添加配置文件
 
 
-<img src="1.jpg">
+<img src="1.png">
 
-<img src="2.jpg">
+<img src="2.png">
 
 ```
 <?php
@@ -37,7 +37,7 @@ output：生成的文件名称
 
 关联控制器
 
-<img src="3.jpg">
+<img src="3.png">
 
 
 主要有两种方式
