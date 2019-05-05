@@ -1,0 +1,35 @@
+{
+  "name": "itjackjw/yii2-apidoc",
+  "description": "能够将yii2的api以html文件导出，以及相关的测试",
+  "keywords": ["yii2", "phpdoc", "apidoc", "api", "documentation"],
+  "minimum-stability": "dev",
+  "type": "yii2-extension",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "itjack",
+      "email": "1092428238@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "yiisoft/yii2": "~2.0.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "itjack\\yii2-apidoc\\": "src/"
+    },
+    "files": [
+
+    ]
+  },
+  "extra": {
+
+  }
+}
