@@ -11,13 +11,10 @@ composer require itjackjw/yii2-apidoc dev-master
 
 # 添加配置文件
 
-![1557048776032](C:\Users\10924\AppData\Roaming\Typora\typora-user-images\1557048776032.png)
 
+<img src="1.jpg">
 
-
-![1557048901038](C:\Users\10924\AppData\Roaming\Typora\typora-user-images\1557048901038.png)
-
-
+<img src="2.jpg">
 
 ```
 <?php
@@ -40,10 +37,7 @@ output：生成的文件名称
 
 关联控制器
 
-![1557049011855](C:\Users\10924\AppData\Roaming\Typora\typora-user-images\1557049011855.png)
-
-
-
+<img src="3.jpg">
 
 
 主要有两种方式
