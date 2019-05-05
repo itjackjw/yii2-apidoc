@@ -3,7 +3,7 @@
 
 namespace itjack\apidoc;
 
-use app\commands\Api\library\Builder;
+use itjack\apidoc\Api\library\Builder;
 use yii\console\Controller;
 use yii\console\Exception;
 use Yii;
