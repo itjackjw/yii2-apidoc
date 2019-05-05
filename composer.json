@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "itjack\\yii2-apidoc\\": "src/"
+      "itjack\\apidoc\\": "src/"
     },
     "files": [
 
