@@ -54,7 +54,7 @@ class ApiController extends Controller
         }
         $lang = include_once $langFile;
 
-        $output_dir = YII_ROOT . DIRECTORY_SEPARATOR . 'web' . DIRECTORY_SEPARATOR;
+        $output_dir = Yii::getAlias("@app") . DIRECTORY_SEPARATOR . 'web' . DIRECTORY_SEPARATOR;
         $output_file = $output_dir . $this->output;
         if (is_file($output_file) && !$force) {
             throw new Exception("api index file already exists!\nIf you need to rebuild again, use the parameter --force=true ");
@@ -136,7 +136,7 @@ class ApiController extends Controller
 
         if (!empty($outapi) && !empty($outapi['apimodule']) && !empty($outapi['author']) && !empty($outapi['title']) && !empty($outapi['output'])) {
 
-            $output_dir = YII_ROOT . DIRECTORY_SEPARATOR . 'web' . DIRECTORY_SEPARATOR;
+            $output_dir = Yii::getAlias("@app") . DIRECTORY_SEPARATOR . 'web' . DIRECTORY_SEPARATOR;
             $output_file = $output_dir . $outapi['output'];
 
             // 额外的类
