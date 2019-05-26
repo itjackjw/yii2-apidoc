@@ -11,12 +11,6 @@
       "email": "1092428238@qq.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  ],
   "require": {
     "php": ">=7.0.0",
     "yiisoft/yii2": "~2.0.14"
