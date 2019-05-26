@@ -78,7 +78,7 @@ class ApiController extends Controller
             throw new Exception("php版本必须大于7.0.0");
         }
 
-        $controllerDir = $moduleDir . "constrollers" . DIRECTORY_SEPARATOR;
+        $controllerDir = $moduleDir . "controllers" . DIRECTORY_SEPARATOR;
         $files = new \RecursiveIteratorIterator(
             new \RecursiveDirectoryIterator($controllerDir), \RecursiveIteratorIterator::LEAVES_ONLY
         );
@@ -151,7 +151,7 @@ class ApiController extends Controller
             $moduleDir = Yii::$app->getBasePath() . DIRECTORY_SEPARATOR . $module . DIRECTORY_SEPARATOR;
 
             if (is_dir($moduleDir) && version_compare(PHP_VERSION, '7.0.0', '>')) {
-                $controllerDir = $moduleDir . "constrollers" . DIRECTORY_SEPARATOR;
+                $controllerDir = $moduleDir . "controllers" . DIRECTORY_SEPARATOR;
                 $files = new \RecursiveIteratorIterator(
                     new \RecursiveDirectoryIterator($controllerDir), \RecursiveIteratorIterator::LEAVES_ONLY
                 );
