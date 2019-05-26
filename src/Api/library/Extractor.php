@@ -166,7 +166,7 @@ class Extractor
 
         $methodAnnotations = self::parseAnnotations($docblockMethod);
         $classAnnotations = self::parseAnnotations($dockblockClass);
-        if (isset($methodAnnotations['ApiInternal']) || $methodName == '_initialize' || $methodName == '_empty') {
+        if (!isset($methodAnnotations['ApiInternal']) || $methodName == '_initialize' || $methodName == '_empty') {
             return [];
         }
 
